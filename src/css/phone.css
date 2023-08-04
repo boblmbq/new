@@ -1,11 +1,22 @@
 @import './style.css';
 
 @media screen and (max-width: 1140px) {
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+
+  .down-link-styles {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+  }
   /*! header */
   .container {
-    max-width: 295px;
-    padding-left: 7px;
-    padding-right: 7px;
+    min-width: 310px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .header-nav {
     display: none;
@@ -26,11 +37,17 @@
   /*! header */
 
   /*? hero */
-  .hero > img{
+  .hero > img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+  .container.hero {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
   }
   /*? hero */
 }
