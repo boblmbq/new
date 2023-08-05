@@ -10,6 +10,9 @@
   --sect-col: #f8f7f6;
   --price-col: #ffa081;
 }
+img{
+  display: block;
+}
 a {
   display: block;
   padding: 0;
