@@ -3,7 +3,7 @@
 @media screen and (min-width: 279px) {
   .text {
     line-height: 2;
-   }
+  }
   /*.img-wrapper {
     max-width: 450px;
     margin: 0 auto;
@@ -11,6 +11,10 @@
   .img-wrapper img{
     width: 100%;
   } */
+
+  .bg-color {
+    background-color: #f8f7f6;
+  }
   .section.two {
     padding-top: 80px;
   }
@@ -37,6 +41,11 @@
     width: 195px;
     height: 1px;
     background-color: black;
+  }
+  .link-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   /*! header */
   .container {
@@ -70,22 +79,22 @@
     margin: 0 auto;
   }
   .container.hero {
+    margin-top: 24px;
+  }
+  .hero {
     background: linear-gradient(
       90deg,
       rgba(248, 247, 246, 1) 50%,
       rgba(255, 255, 255, 1) 50%
     );
-    padding-top: 24px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
   }
-  .descr {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  .hero-descr {
+    margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .hero-link {
+    margin-top: 20px;
   }
   .link-span {
     padding-left: 20px;
@@ -111,8 +120,74 @@
   /* !second section  */
 
   /* ?third section  */
+  .three-container {
+    padding-top: 32px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f7f6;
+  }
+  .three-text {
+    padding-top: 24px;
+  }
 
+  .three-link {
+    margin-top: 24px;
+  }
   /* ?third section  */
+
+  /* !four section  */
+  .container.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .four-list {
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .four-list-item {
+    width: 288px;
+  }
+  .four-list-item img {
+    width: 100%;
+  }
+  .four-price {
+    margin-top: 13px;
+  }
+  .price {
+    color: var(--price-col);
+    font-weight: var(--f-w-sB);
+  }
+  .four-list-descr {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+  }
+  .four-link {
+    margin-top: 32px;
+  }
+  /* !four section  */
+
+  /* ?fiveth section  */
+  .container.five {
+    padding-top: 38;
+    padding-bottom: 52;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 22px;
+  }
+  .five-img-wrap{
+    margin-top: 20px;
+  }
+  /* ?fiveth section  */
 }
 
 @media screen and (min-width: 320px) {
