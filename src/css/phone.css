@@ -206,6 +206,7 @@
     border-bottom: 1px solid black;
   }
   .footer-input {
+    height: 21px;
     border: none;
     width: 100%;
     outline: none;
