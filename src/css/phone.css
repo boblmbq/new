@@ -232,7 +232,7 @@
   }
   .footer-form-label {
     position: absolute;
-    z-index: -1;
+    cursor: text;
     left: 1px;
     top: 2px;
     color: #adadad;
