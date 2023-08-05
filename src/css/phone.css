@@ -213,6 +213,7 @@
   }
   .footer-form-btn {
     color: black;
+    cursor: pointer;
     border: none;
     background-color: transparent;
   }
