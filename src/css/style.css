@@ -35,6 +35,7 @@ h4 {
 }
 p {
   margin: 0;
+  letter-spacing: 0.48px;
 }
 ul {
   list-style: none;
@@ -46,7 +47,8 @@ body {
   font-weight: var(--f-w-r);
 }
 .container {
-  margin: 0 auto;
+  margin-left:  auto;
+  margin-right: auto;
 }
 
 /*! header */

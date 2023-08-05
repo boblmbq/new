@@ -1,15 +1,27 @@
 @import './style.css';
 
 @media screen and (min-width: 279px) {
-  .section.two{
+  .text {
+    line-height: 2;
+   }
+  /*.img-wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .img-wrapper img{
+    width: 100%;
+  } */
+  .section.two {
     padding-top: 80px;
   }
-  .section:nth-child(n+3){
+  .section:nth-child(n + 3) {
     padding-top: 100px;
   }
   h1,
   h2 {
     font-size: 30px;
+    letter-spacing: 1.44px;
+    line-height: 1.13;
   }
 
   .down-link-styles {
@@ -18,7 +30,7 @@
     font-weight: 600;
     letter-spacing: 0.48px;
   }
-  .hero-link::after {
+  .link-line::after {
     content: '';
     margin-top: 8px;
     display: block;
@@ -68,25 +80,39 @@
     flex-direction: column;
     row-gap: 20px;
   }
-  .hero-descr {
+  .descr {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-right: 20px;
     padding-left: 20px;
   }
-  .hero-link-span {
+  .link-span {
     padding-left: 20px;
   }
   /*? hero */
 
   /* !second section  */
-.two-images{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 11px;
-}
+  .two-images-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+  }
+  .two-container {
+    margin-top: 32px;
+  }
+  .two-text {
+    margin-top: 24;
+  }
+
+  .two-link {
+    margin-top: 24px;
+  }
   /* !second section  */
+
+  /* ?third section  */
+
+  /* ?third section  */
 }
 
 @media screen and (min-width: 320px) {
