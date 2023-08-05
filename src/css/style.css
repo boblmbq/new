@@ -11,7 +11,7 @@
   --price-col: #ffa081;
 }
 a {
-  display: inline-block;
+  display: block;
   padding: 0;
   margin: 0;
   text-decoration: none;

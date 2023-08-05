@@ -1,6 +1,6 @@
 @import './style.css';
 
-@media screen and (max-width: 1140px) {
+@media screen and (min-width: 279px) {
   h1,
   h2 {
     font-size: 30px;
@@ -12,11 +12,19 @@
     font-weight: 600;
     letter-spacing: 0.48px;
   }
+  .hero-link::after {
+    content: '';
+    margin-top: 8px;
+    display: block;
+    width: 195px;
+    height: 1px;
+    background-color: black;
+  }
   /*! header */
   .container {
-    min-width: 310px;
-    padding-left: 16px;
-    padding-right: 16px;
+    min-width: 275px;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
   }
   .header-nav {
     display: none;
@@ -49,5 +57,23 @@
     flex-direction: column;
     row-gap: 20px;
   }
+  .hero-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .hero-link-span{
+    padding-left: 20px;
+  }
   /*? hero */
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    min-width: 310px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
