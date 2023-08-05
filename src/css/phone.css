@@ -198,15 +198,18 @@
     margin-bottom: 17px;
   }
   .footer-form {
-    display: flex;
     margin-bottom: 43px;
+  }
+  .footer-form-wrapper {
+    display: flex;
     padding-bottom: 7px;
-    justify-content: space-between;
     border-bottom: 1px solid black;
   }
   .footer-input {
-    background-color: transparent;
     border: none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
   }
   .footer-form-btn {
     border: none;
@@ -220,6 +223,24 @@
     flex-direction: column;
     gap: 18px;
     margin-bottom: 43px;
+  }
+  .footer-input-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  .footer-form-label {
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    color: #adadad;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    transition: 0.3s;
+  }
+  .footer-input:focus ~ .footer-form-label,
+  .footer-input:not(:placeholder-shown) ~ .footer-form-label {
+    top: -18px;
+    font-size: 12px;
   }
   /*! footer */
 }
