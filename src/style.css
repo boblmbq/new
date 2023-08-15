@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond&family=Poppins:wght@400;600&display=swap');
+@import url('../node_modules/modern-normalize/modern-normalize.css');
+@import './css/phone.css';
+
+:root {
+  --f-w-r: 400;
+  --f-w-sB: 600;
+  --f-f-sec: Cormorant;
+  --sect-col: #f8f7f6;
+  --price-col: #ffa081;
+}
+img {
+  display: block;
+}
+a {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: currentColor;
+}
+button {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Cormorant;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+  letter-spacing: 0.48px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Poppins;
+  font-weight: var(--f-w-r);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}

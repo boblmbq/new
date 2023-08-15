@@ -1,0 +1,18 @@
+/* ?third section  */
+  .three-container {
+    padding-top: 32px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f7f6;
+  }
+  .three-text {
+    padding-top: 24px;
+  }
+
+  .three-link {
+    margin-top: 24px;
+  }
+  /* ?third section  */

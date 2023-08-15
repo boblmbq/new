@@ -1,0 +1,36 @@
+/* !four section  */
+  .container.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .four-list {
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .four-list-item {
+    width: 288px;
+  }
+  .four-list-item img {
+    width: 100%;
+  }
+  .four-price {
+    margin-top: 13px;
+  }
+  .price {
+    color: var(--price-col);
+    font-weight: var(--f-w-sB);
+  }
+  .four-list-descr {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+  }
+  .four-link {
+    margin-top: 32px;
+  }
+  /* !four section  */

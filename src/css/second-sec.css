@@ -1,0 +1,17 @@
+/* !second section  */
+.two-images-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+}
+.two-container {
+  margin-top: 32px;
+}
+.two-text {
+  margin-top: 24;
+}
+
+.two-link {
+  margin-top: 24px;
+}
+/* !second section  */
