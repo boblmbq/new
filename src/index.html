@@ -55,7 +55,7 @@
     <main>
       <!-- ! section one -->
       <section class="hero section one">
-        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide" role="group">
           <div class="splide__track">
             <ul class="splide__list hero-img-wrap img-wrapper">
               <li class="splide__slide">
@@ -93,19 +93,26 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="splide"></div>
-        <div class="container hero">
-          <h1 class="hero-title title">Classic tennis necklace</h1>
-          <div class="hero-descr descr">
-            <p class="hero-text text">Cubic zirconias avails in gold chain</p>
-            <p class="down-link-styles link-line hero-link">
-              <a href="#" class="hero-link-span link-span">View</a>
-            </p>
+          <div class="container hero">
+            <h1 class="hero-title title">Classic tennis necklace</h1>
+            <div class="hero-descr descr">
+              <p class="hero-text text">Cubic zirconias avails in gold chain</p>
+              <p class="down-link-styles link-line hero-link">
+                <a href="#" class="hero-link-span link-span">View</a>
+              </p>
+            </div>
           </div>
           <div class="splide__arrows">
-            <button class="splide__arrow splide__arrow--prev">Prev</button>
-            <button class="splide__arrow splide__arrow--next">Next</button>
+            <button class="splide__arrow splide__arrow--prev">
+              <svg>
+                <use href="./images/symbol-defs.svg#right"></use>
+              </svg>
+            </button>
+            <button class="splide__arrow splide__arrow--next">
+              <svg>
+                <use href="./images/symbol-defs.svg#right"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </section>
